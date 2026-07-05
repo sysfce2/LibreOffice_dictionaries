@@ -4,7 +4,7 @@
     <node oor:name="Dictionaries">
         <node oor:name="HunSpellDic_fr" oor:op="fuse">
             <prop oor:name="Locations" oor:type="oor:string-list">
-                <value>%origin%/dictionaries/fr.aff %origin%/dictionaries/fr.dic</value>
+                <value>%origin%/fr.aff %origin%/fr.dic</value>
             </prop>
             <prop oor:name="Format" oor:type="xs:string">
                 <value>DICT_SPELL</value>
@@ -17,7 +17,7 @@
         </node>
         <node oor:name="HyphDic_fr" oor:op="fuse">
             <prop oor:name="Locations" oor:type="oor:string-list">
-                <value>%origin%/dictionaries/hyph_fr.dic</value>
+                <value>%origin%/hyph_fr.dic</value>
             </prop>
             <prop oor:name="Format" oor:type="xs:string">
                 <value>DICT_HYPH</value>
@@ -28,7 +28,7 @@
         </node>
         <node oor:name="ThesDic_fr" oor:op="fuse">
             <prop oor:name="Locations" oor:type="oor:string-list">
-                <value>%origin%/dictionaries/thes_fr.dat %origin%/dictionaries/thes_fr.idx</value>
+                <value>%origin%/thes_fr.dat %origin%/thes_fr.idx</value>
             </prop>
             <prop oor:name="Format" oor:type="xs:string">
                 <value>DICT_THES</value>
