@@ -19,6 +19,6 @@ $(eval $(call gb_Dictionary_add_root_files,dict-id,\
 	dictionaries/id/README-thes \
 ))
 
-$(eval $(call gb_Dictionary_add_thesaurus,dict-id,dictionaries/id/th_id_ID_v2.dat))
+$(eval $(call gb_Dictionary_add_thesauri,dict-id,dictionaries/id/th_id_ID_v2.dat))
 
 # vim: set noet sw=4 ts=4:
